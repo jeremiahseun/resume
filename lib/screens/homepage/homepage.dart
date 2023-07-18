@@ -84,9 +84,9 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                         //* THIS IS THE BODY OF THE WEB PAGE
                         size.size == LayoutSize.desktop ||
                                 size.orientation == Orientation.landscape
-                            ? Row(
+                            ? const Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: const [
+                                children: [
                                   Spacer(),
                                   //* THE SIDEBAR OF THE WEB VERSION
                                   Sidebar(),

@@ -292,27 +292,27 @@ class BodyResume extends StatelessWidget {
                     color: AppColors.black,
                   ),
               children: [
-                TextSpan(text: "AWS is Amazon Web Services, which serves as a serverless approach to make developers worry less about servers and other things. I have experience with services like: "),
+                const TextSpan(text: "AWS is Amazon Web Services, which serves as a serverless approach to make developers worry less about servers and other things. I have experience with services like: "),
                 TextSpan(text: "\nAmplify:", style: GoogleFonts.ptSansNarrow(
                     fontWeight: FontWeight.w700,
                     color: AppColors.black,
                   )),
-                TextSpan(text: " (The Flutter framework for AWS)"),
+                const TextSpan(text: " (The Flutter framework for AWS)"),
                 TextSpan(text: "\nS3 Bucket:", style: GoogleFonts.ptSansNarrow(
                     fontWeight: FontWeight.w700,
                     color: AppColors.black,
                   )),
-                TextSpan(text: " (The storage service for AWS)"),
+                const TextSpan(text: " (The storage service for AWS)"),
                 TextSpan(text: "\nDynamoDB:", style: GoogleFonts.ptSansNarrow(
                     fontWeight: FontWeight.w700,
                     color: AppColors.black,
                   )),
-                TextSpan(text: " (The No SQLite Database framework for AWS.)"),
+                const TextSpan(text: " (The No SQLite Database framework for AWS.)"),
                 TextSpan(text: "\nAPI Endpoint:", style: GoogleFonts.ptSansNarrow(
                     fontWeight: FontWeight.w700,
                     color: AppColors.black,
                   )),
-                TextSpan(text: " (The API service that allows developers create different API approach such as websockets, HTTP and REST APIs respectively.)"),
+                const TextSpan(text: " (The API service that allows developers create different API approach such as websockets, HTTP and REST APIs respectively.)"),
               ]
           )),
           const Gap(30),
