@@ -94,7 +94,7 @@ class BodyResume extends StatelessWidget {
               )),
           const Gap(5),
           Text(
-            'October 2021 - Present',
+            'October 2021 - June 2022',
             style: size.size == LayoutSize.desktop ||
                     size.orientation == Orientation.landscape
                 ? GoogleFonts.ptSansNarrow(
@@ -111,6 +111,45 @@ class BodyResume extends StatelessWidget {
           const Gap(5),
           Text(
             'I am currently working on building a mobile app for hotels.ng. I am responsible for building the UI and implementing the functionality from the backend service. I am also responsible for the GitHub repository and maintaining the codebase and the overall look and feel of the app. I am also building another mobile app which focused beyond the Nigerian market as such.',
+            style: size.size == LayoutSize.desktop ||
+                    size.orientation == Orientation.landscape
+                ? GoogleFonts.ptSansNarrow(
+                    fontSize: 14.sp,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.black,
+                  )
+                : GoogleFonts.ptSansNarrow(
+                    fontSize: 17.sp,
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.black,
+                  ),
+          ),
+          const Gap(30),
+          Text('Lead Flutter Developer - Impresanera Ltd'.toUpperCase(),
+              style: GoogleFonts.ptSansNarrow(
+                fontSize: 15.sp,
+                fontWeight: FontWeight.w600,
+                color: AppColors.subText,
+              )),
+          const Gap(5),
+          Text(
+            'September 2022 - Present',
+            style: size.size == LayoutSize.desktop ||
+                    size.orientation == Orientation.landscape
+                ? GoogleFonts.ptSansNarrow(
+                    fontSize: 13.5.sp,
+                    fontWeight: FontWeight.w500,
+                    color: Colors.black,
+                  )
+                : GoogleFonts.ptSansNarrow(
+                    fontSize: 15.5.sp,
+                    fontWeight: FontWeight.w500,
+                    color: AppColors.black,
+                  ),
+          ),
+          const Gap(5),
+          Text(
+            'I am currently working on building ride-hailing apps - Passenger and Driver. I have learnt various tools and approaches to making a seamless experience for our customers, such as Web Sockets, Maps and Navigation (Google Maps and Mapbox) etc. I am also responsible for the GitHub repository and maintaining the codebase and the overall look and feel of the app.',
             style: size.size == LayoutSize.desktop ||
                     size.orientation == Orientation.landscape
                 ? GoogleFonts.ptSansNarrow(
@@ -223,6 +262,59 @@ class BodyResume extends StatelessWidget {
                     color: AppColors.black,
                   ),
           ),
+          const Gap(30),
+          Text('aws'.toUpperCase(),
+              style: size.size == LayoutSize.desktop ||
+                      size.orientation == Orientation.landscape
+                  ? GoogleFonts.ptSansNarrow(
+                      fontSize: 15.5.sp,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.subText,
+                    )
+                  : GoogleFonts.ptSansNarrow(
+                      fontSize: 16.sp,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.subText,
+                    )),
+          const Gap(5),
+          RichText(
+            text: TextSpan(
+              style: size.size == LayoutSize.desktop ||
+                    size.orientation == Orientation.landscape
+                ? GoogleFonts.ptSansNarrow(
+                    fontSize: 14.sp,
+                    fontWeight: FontWeight.w500,
+                    color: AppColors.black,
+                  )
+                : GoogleFonts.ptSansNarrow(
+                    fontSize: 17.sp,
+                    fontWeight: FontWeight.w500,
+                    color: AppColors.black,
+                  ),
+              children: [
+                TextSpan(text: "AWS is Amazon Web Services, which serves as a serverless approach to make developers worry less about servers and other things. I have experience with services like: "),
+                TextSpan(text: "\nAmplify:", style: GoogleFonts.ptSansNarrow(
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.black,
+                  )),
+                TextSpan(text: " (The Flutter framework for AWS)"),
+                TextSpan(text: "\nS3 Bucket:", style: GoogleFonts.ptSansNarrow(
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.black,
+                  )),
+                TextSpan(text: " (The storage service for AWS)"),
+                TextSpan(text: "\nDynamoDB:", style: GoogleFonts.ptSansNarrow(
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.black,
+                  )),
+                TextSpan(text: " (The No SQLite Database framework for AWS.)"),
+                TextSpan(text: "\nAPI Endpoint:", style: GoogleFonts.ptSansNarrow(
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.black,
+                  )),
+                TextSpan(text: " (The API service that allows developers create different API approach such as websockets, HTTP and REST APIs respectively.)"),
+              ]
+          )),
           const Gap(30),
           Text('figma'.toUpperCase(),
               style: size.size == LayoutSize.desktop ||
